@@ -11,6 +11,6 @@ canvas {
 #counts {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 200px;
     font-size: 20px;
 }

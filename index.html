@@ -4,11 +4,23 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Chemical Equilibrium Simulator</title>
-    <link rel='stylesheet' href='main.css'>
+    <link rel='stylesheet' href='style.css'>
 </head>
 <body>
     <h1>Chemical Equilibrium Simulator</h1>
-    
-    
+
+    <p id="reactants">Reactants = 25</p>
+    <p id="products">Products = 25</p>
+
+    <label for="kslider">
+        Equilibrium position
+    </label>
+    <p id="kValue">Center</p>
+    <input
+    type="range" id="kslider" min="-10" max="10" value="0">
+    <br><br>
+    <canvas id="simulationCanvas" width="800" height="300"></canvas>
+
+    <script src="simulation.js"></script>
 </body>
 </html>
